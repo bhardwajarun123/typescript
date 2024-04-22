@@ -1,0 +1,16 @@
+export {}
+
+
+interface userType {
+    name: string,
+    age: number,
+    getName: ()=>string
+}
+
+let users :userType= {
+    name: "arun bhardwaj",
+    age: 24,
+    getName: function(){
+        return "arun"
+    }
+}
